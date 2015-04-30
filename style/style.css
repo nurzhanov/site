@@ -14,8 +14,24 @@
 	text-decoration: none;
 }
 
-#log{
+#login{
 	padding: 3px;
 	float: right;
+}
 
+#logout{
+	padding: 3px;
+	float: right;
+}
+
+#log_block1{
+	float: left;
+	clear: both;
+	margin-top: 12%;
+	margin-left: 50%;
+}
+
+#log_block2{
+	margin-top: 12%;
+	margin-left: 50%;
 }

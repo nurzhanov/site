@@ -8,7 +8,29 @@
 	<script type="text/javascript" src="/fs/script/script.js"></script>
 </head>
 <body>
-	<a href="/fs/"><img src="/fs/image/logo.png"></a>
-	<p>I`m login page</p>
+	<div id="menu">
+		<ul>
+			<li><a href="/fs/"><img src="/fs/image/logo.png"></a></li>
+			<li><a href="/fs/search/">Search</a></li>
+			<li><a href="/fs/files/">Files</a></li>
+			<li><a href="/fs/video/">Video</a></li>
+			<li><a href="/fs/audio/">Audio</a></li>
+			<li><a href="/fs/image/">Image</a></li>
+			<li><a href="/fs/texts/">Texts</a></li>
+			<li><a href="/fs/info">Info</a></li>
+			<li><a id="logout" href="#">Log out</a></li>
+		</ul>
+	</div>
+	<div id="log_block1">
+		<form class="auth" method="post" action="">
+			<h2>Login: </h2>
+			<input type="text" id="log" value="">
+			<p>Password: </p>
+			<input type="password" id="pas" value="">
+		</form>
+	</div>
+	<div id="log_block2">
+		<a href="/fs/register.html">Registration</a>
+	</div>	
 </body>
 </html>
