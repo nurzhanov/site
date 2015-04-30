@@ -1,0 +1,21 @@
+#menu ul li{
+	display: inline;
+	padding: 3px;
+}
+#menu ul{
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+	/*margin-left: 3px; */
+	text-decoration: none;
+	padding: 5px;
+	font-family: tahoma, sans-serif, verdana;
+}
+#menu ul li a{
+	text-decoration: none;
+}
+
+#log{
+	padding: 3px;
+	float: right;
+
+}
