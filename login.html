@@ -21,16 +21,14 @@
 			<li><a id="logout" href="#">Log out</a></li>
 		</ul>
 	</div>
-	<div id="log_block1">
-		<form class="auth" method="post" action="">
-			<h2>Login: </h2>
-			<input type="text" id="log" value="">
-			<p>Password: </p>
-			<input type="password" id="pas" value="">
+	<div id="auth">
+		<form method="post" action="">
+			<p><input id="log" type="text"  placeholder="Login:"></p>
+			<p><input id="pas" type="password"  placeholder="Password:"></p>
+			<p><input id="check" type="checkbox"><label>Remember me</label></p>
+			<p class="submit"><input id="send" type="button"  value="Send"><br></p>
+			<p><a id="reg" href="/fs/register.html">Registration</a>&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp<a id="rem" href="/fs/remind.html">Remind the password</a></p>
 		</form>
 	</div>
-	<div id="log_block2">
-		<a href="/fs/register.html">Registration</a>
-	</div>	
 </body>
 </html>

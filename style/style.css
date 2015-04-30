@@ -24,14 +24,60 @@
 	float: right;
 }
 
-#log_block1{
-	float: left;
-	clear: both;
-	margin-top: 12%;
-	margin-left: 50%;
+#auth{
+	border: 1px solid #999999;
+	margin: 0 40% 0 40%;
+	width: 20%;
+	margin-top: 10%; 
+	padding: 15px 0px 15px 15px;
+	border-radius: 5px;
 }
 
-#log_block2{
-	margin-top: 12%;
-	margin-left: 50%;
+#check{
+	font-size: 12px;
+  	color: #777;
+	cursor: pointer;
+}
+
+#log{
+	width: 237px;
+	height: 25px;
+	font-size: 15px;
+	font-family: arial;
+	padding-left: 5px;
+	border-radius: 5px; 
+}
+
+#pas{
+	width: 237px;
+	height: 25px;
+	font-size: 15px;
+	font-family: arial;
+	padding-left: 5px;
+	border-radius: 5px;  
+}
+
+#send{
+	width: 245px;
+	height: 25px;
+	font-size: 15px;
+	font-family: arial;
+	/*padding-left: 5px; */
+	background-color: #006699;
+	color: white;
+	border-radius: 5px; 
+}
+
+#reg{
+	color: #006699;
+	text-decoration: none;
+}
+
+#rem{
+	color:  #006699;
+	text-decoration: none;
+}
+
+#rememb{
+	padding-left: 10px;
 }
